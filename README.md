@@ -18,7 +18,7 @@ príklad adresa firewallu je 192.168.200.250, tak adresa controlleru je https://
 
 po spusteni je třeba nainporotovat zalohu konfigurace controlleru, a po cca hodine je treba restartovat sluzbu Unifi
 
-bud: service unifi.sh stop a nasledne service unifi.sh start a nebo service unifi.sh restart
+bud: ```service unifi.sh stop``` a nasledne ```service unifi.sh start``` a nebo ```service unifi.sh restart```
 
 pred instalaci nove verzi controlleru je dobre provest zalohovani konfigurace v controlleru a nasledne v konzoli pfsense,
 zastavit sluzbu controlleru a provest odstraneni controlleru pomoci prikazu:
