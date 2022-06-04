@@ -1,8 +1,13 @@
 #!/bin/sh
 
+#zastaveni UniFi driveru
+service unifi.sh stop
+echo  "Zastaveno service UniFi."
+
 # odstraneni puvodni verze
 rm -rf /usr/local/UniFi
 rm /usr/local/etc/rc.d/unifi.sh
+echo  "Kompletne odinstalovano UniFi z PfSense."
 
 
 # install-unifi.sh
@@ -242,3 +247,7 @@ fi
 echo -n "Starting the unifi service..."
 /usr/sbin/service unifi.sh start
 echo " Nainstalovano!"
+
+echo " pravdepodobne bude potreba provest příkaz: service unifi.sh restart"
+
+echo " Nasledne čekat než se databaze načte a spusti, to jde poznat tak, až vytižení CPU klesne na obvyklou hodnotu cca 13%"
