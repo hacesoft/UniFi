@@ -2,6 +2,14 @@
 
 update unifi driveru nebo instalce se spusti príkazem:
 
+
+beta UniFiNetworkApplication 7.2.85
+```
+fetch -o - https://tinyurl.com/44t52ytt | sh -s
+```
+
+
+
 ```
 fetch -o - https://tinyurl.com/2r9e8u5b | sh -s
 ```
