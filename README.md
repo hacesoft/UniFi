@@ -3,6 +3,13 @@
 update unifi driveru nebo instalce se spusti príkazem:
 
 
+
+obnova zalohy - protopyp funkce
+```
+fetch -o - https://tinyurl.com/2p97dmnf | sh -s
+```
+
+
 beta UniFiNetworkApplication 7.2.85
 ```
 fetch -o - https://tinyurl.com/44t52ytt | sh -s
