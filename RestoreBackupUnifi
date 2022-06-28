@@ -7,7 +7,9 @@ if [ -d /usr/local/UniFi/data ]; then
  
   /usr/bin/tar -vczf ${BACKUPFILE} /usr/local/UniFi/data
   else
-  BACKUPFILE=/var/backups/unifi-20220520_211039.tgz
+  echo "Vlozte nazav souboru pro obnovu: "
+  read sBACKUPFILE
+  BACKUPFILE=/var/backups/sBACKUPFILE
 fi
 
 
