@@ -2,7 +2,10 @@
 
 update unifi driveru nebo instalce se spusti príkazem:
 
-
+Pokusny script
+```
+tinyurl.com/ymm474vy
+```
 
 obnova zalohy - protopyp funkce
 ```
