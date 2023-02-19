@@ -1,5 +1,5 @@
 # cmd 2>&1 | tee unifi74144.txt
->> unifi74144.txt 2>&1
+>> 	/usr/local/UniFi/unifi74144.txt 2>&1
 #!/bin/sh
 
 # install-unifi.sh
