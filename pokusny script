@@ -1,4 +1,4 @@
-# cmd 2>&1 | tee unifi74144.txt
+# cmd 2>&1 | tee /usr/local/UniFi/unifi74144.txt 
 >> 	/usr/local/UniFi/unifi74144.txt 2>&1
 #!/bin/sh
 
