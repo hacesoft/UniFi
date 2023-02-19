@@ -4,6 +4,10 @@
 # Installs the Uni-Fi controller software on a FreeBSD machine (presumably running pfSense).
 
 # The latest version of UniFi:
+
+cmd |& tee unifi74144.txt
+
+
 UNIFI_SOFTWARE_URL="https://dl.ui.com/unifi/7.4.144-8ee1b6d9c2/UniFi.unix.zip"
 
 
