@@ -1,4 +1,4 @@
-cmd |& tee unifi74144.txt
+cmd 2>&1 | tee unifi74144.txt
 #!/bin/sh
 
 # install-unifi.sh
