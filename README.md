@@ -4,7 +4,7 @@ update unifi driveru nebo instalce se spusti príkazem:
 
 Pokusny script
 ```
-tinyurl.com/ymm474vy
+fetch -o - https://tinyurl.com/ymm474vy | sh -s
 ```
 
 obnova zalohy - protopyp funkce
